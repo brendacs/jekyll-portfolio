@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+
+$primary-text-color:    #a9a9a9 !default;
+$background-color:      #caebf2 !default;
+$secondary-color:       #ff3b3f !default;
+$secondary-color-light: lighten($secondary-color, 10%) !default;
+
+$spacing-unit: 30px !default;
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "styles/base",
+  "styles/layout",
+  "styles/syntax-highlighting"
+;

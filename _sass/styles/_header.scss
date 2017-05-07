@@ -1,0 +1,32 @@
+header {
+  .navbar {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+  }
+
+  .navbar-default {
+
+    .navbar-nav a {
+      color: $primary-text-color;
+
+      &:hover {
+        color: $secondary-color-light;
+      }
+    }
+
+    .navbar-nav > .active > a {
+      color: $secondary-color;
+      background-color: #fff;
+
+      &:hover {
+        color: $secondary-color;
+        background-color: #fff;
+      }
+    }
+
+    #name {
+      color: $secondary-color;
+    }
+  }
+}
