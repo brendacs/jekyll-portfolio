@@ -20,10 +20,12 @@
       padding: 20px;
       margin: 20px 0px 20px 0px;
       width: 100px;
+      transition: all 0.25s ease;
 
       a {
-        transition: all 0.25s ease;
+        color: $secondary-color;
       }
     }
   }
 }
+

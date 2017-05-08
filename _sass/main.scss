@@ -12,11 +12,12 @@ $base-font-size:   23px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 
-$primary-text-color:    darken(#a9a9a9, 10%) !default;
-$background-color:      #caebf2 !default;
-$secondary-color:       #ff3b3f !default;
-$secondary-color-light: lighten($secondary-color, 10%) !default;
-$tertiary-color:        #efefef !default;
+$primary-text-color:     darken(#a9a9a9, 10%) !default;
+$background-color:       #caebf2 !default;
+$secondary-color:        #ff3b3f !default;
+$secondary-color-light:  lighten($secondary-color, 10%) !default;
+$secondary-color-darken: darken($secondary-color, 20%) !default;
+$tertiary-color:         #efefef !default;
 
 $spacing-unit: 55px !default;
 

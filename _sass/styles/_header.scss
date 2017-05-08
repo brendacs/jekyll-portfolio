@@ -34,7 +34,7 @@ header {
       &::after {
         content: "";
         display: block;
-        background: url(../assets/images/thick-red-streak.png);
+        background: url(../assets/images/red-streak.png);
         height: 15px;
         width: 100%;
         background-position: center center;
@@ -51,6 +51,11 @@ header {
       color: $secondary-color;
       font-size: $base-font-size*1.75;
       padding-top: 20px;
+      transition: all 0.25s ease-out;
+
+      &:hover {
+        transform:rotate(-5deg) scale(1.2);
+      }
     }
   }
 }
