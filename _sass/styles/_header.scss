@@ -10,10 +10,11 @@ header {
 
     .navbar-nav a {
       color: $primary-text-color;
-      transition: all 0.25s ease;
+      transition: all 0.25s ease-out;
 
       &:hover {
         color: $secondary-color-light;
+        transform: rotate(5deg) scale(1.2);
       }
 
       &:focus {
@@ -44,6 +45,7 @@ header {
       &:hover {
         color: $secondary-color;
         background-color: transparent;
+        transform: none;
       }
     }
 
@@ -54,7 +56,7 @@ header {
       transition: all 0.25s ease-out;
 
       &:hover {
-        transform:rotate(-5deg) scale(1.2);
+        transform: rotate(-5deg) scale(1.2);
       }
     }
   }
