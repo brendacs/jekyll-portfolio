@@ -8,11 +8,11 @@
 }
 
 $base-font-family: Leafy;
-$base-font-size:   20px !default;
+$base-font-size:   23px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 
-$primary-text-color:    #a9a9a9 !default;
+$primary-text-color:    darken(#a9a9a9, 10%) !default;
 $background-color:      #caebf2 !default;
 $secondary-color:       #ff3b3f !default;
 $secondary-color-light: lighten($secondary-color, 10%) !default;

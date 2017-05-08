@@ -1,0 +1,29 @@
+.social {
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+  ul {
+    position: relative;
+    margin-left: -90px;
+
+    li {
+      text-align: right;
+      list-style-type: none;
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0px 20px 0px;
+      width: 100px;
+
+      a {
+        transition: all 0.25s ease;
+      }
+    }
+  }
+}
