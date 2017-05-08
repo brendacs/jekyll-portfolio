@@ -1,1 +1,16 @@
 @import 'header';
+@import 'about';
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+p {
+  font-size: $base-font-size*1.5;
+}

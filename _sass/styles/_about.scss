@@ -1,0 +1,30 @@
+.about {
+  h1 {
+    font-size: $base-font-size*3;
+  }
+
+  img {
+    padding-top: 10px;
+    width: 100%
+  }
+}
+
+.about-btn {
+  color: $secondary-color-light;
+  font-size: $base-font-size;
+
+  &:hover {
+    color: $secondary-color;
+    background-color: #fff;
+  }
+}
+
+.about-btn.active {
+  color: $secondary-color;
+  background-color: #fff;
+
+  &:hover {
+    color: $secondary-color;
+    background-color: #fff;
+  }
+}

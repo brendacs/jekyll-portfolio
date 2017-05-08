@@ -1,32 +1,56 @@
 header {
+
   .navbar {
-    background: transparent;
+    padding: 15px;
+    background: $background-color;
     border: none;
-    border-bottom: 2px solid #fff;
   }
 
   .navbar-default {
 
     .navbar-nav a {
       color: $primary-text-color;
+      transition: all 0.25s ease;
 
       &:hover {
         color: $secondary-color-light;
       }
+
+      &:focus {
+        color: $secondary-color;
+        background-color: transparent;
+      }
+    }
+
+    li {
+      width: 100px;
+      text-align: center;
     }
 
     .navbar-nav > .active > a {
       color: $secondary-color;
-      background-color: #fff;
+      background-color: transparent;
+
+      &::after {
+        content: "";
+        display: block;
+        background: url(../assets/images/thick-red-streak.png);
+        height: 15px;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
 
       &:hover {
         color: $secondary-color;
-        background-color: #fff;
+        background-color: transparent;
       }
     }
 
     #name {
       color: $secondary-color;
+      font-size: $base-font-size*1.75;
+      padding-top: 20px;
     }
   }
 }

@@ -2,8 +2,13 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
+@font-face {
+  font-family: Leafy;
+  src: url(../assets/fonts/leafy.otf);
+}
+
+$base-font-family: Leafy;
+$base-font-size:   20px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 
@@ -11,8 +16,9 @@ $primary-text-color:    #a9a9a9 !default;
 $background-color:      #caebf2 !default;
 $secondary-color:       #ff3b3f !default;
 $secondary-color-light: lighten($secondary-color, 10%) !default;
+$tertiary-color:        #efefef !default;
 
-$spacing-unit: 30px !default;
+$spacing-unit: 55px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
